@@ -2,11 +2,11 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 21
-    buildToolsVersion "21.1.2"
+    buildToolsVersion '23.0.2'
 
     defaultConfig {
         applicationId "henrychuang.tw.chatheadmsg"
-        minSdkVersion 10
+        minSdkVersion 15
         targetSdkVersion 21
     }
 

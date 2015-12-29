@@ -1,5 +1,4 @@
 package henrychuang.tw.chatheadmsg;
-import henrychuang.tw.chatheadmsg.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -23,7 +22,7 @@ public class MyDialog extends Activity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
-		
+
 		setContentView(R.layout.dialog);
 		
 		edt = (EditText) findViewById(R.id.dialog_edt);
